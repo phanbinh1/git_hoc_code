@@ -1,0 +1,26 @@
+body[_enviroment="app"] .ant-page-header-heading-sub-title, body[_enviroment="app"] .ant-page-header-back {
+    display: none;
+}
+
+body[_enviroment="app"] .ant-page-header-heading {
+    position: relative;
+}
+
+body[_enviroment="app"] .ant-page-header-heading-title {
+    max-width: calc(100% - 22px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+body[_enviroment="app"] .sidebar-custom {
+    position: fixed;
+}
+
+body[_enviroment="app"] .ant-page-header-heading .ant-page-header-heading-extra {
+    position: absolute;
+    right: 0;
+}
+
+body[_enviroment="app"].show-menu .wrapper-faded {
+    display: block;
+}

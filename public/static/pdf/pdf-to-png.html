@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable=no">
+	<link rel="stylesheet" href="./style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.min.js"></script>
+
+</head>
+
+<body>
+	<div id="loading"></div>
+	<button id="upload-button" onclick="onBtnClick('file-to-upload')">Select PDF</button>
+	<input type="file" id="file-to-upload" onchange="onFileChange(1)" />
+
+	<button onclick="onBtnClick('qrcode-to-upload')">Chọn QRCODE</button>
+	<input type="file" id="qrcode-to-upload" onchange="onFileChange(2)" />
+
+	<div id="pdf-main-container">
+		<div id="pdf-contents">
+			<div id="pdf-content" style="display: none;">
+			</div>
+		</div>
+		<div id="img-wrapper">
+		</div>
+		<button onclick="downloadPdf()">Download PDF</button>
+	</div>
+
+	<script type="text/javascript" src="./jsqrcode-master/src/grid.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/version.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/detector.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/formatinf.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/errorlevel.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/bitmat.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/datablock.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/bmparser.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/datamask.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/rsdecoder.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/gf256poly.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/gf256.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/decoder.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/qrcode.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/findpat.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/alignpat.js"></script>
+	<script type="text/javascript" src="./jsqrcode-master/src/databr.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.min.js"></script>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="pdf.js"></script>
+	<script src="pdf.worker.js"></script>
+	<script src="./pdf-index.js"></script>
+	<script src="./canvas-to-pdf.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+:root {
+    /* Navigation */
+    --nav-bg-color: #027be3;
+    --nav-bg-color-active: #005ab5;
+    --nav-color: #fff;
+    /* Menu */
+    --menu-bg-color: #fff;
+    --menu-bg-color-active: #89d9ff;
+    --menu-color: #2e7095;
+    --menu-color-active: #fff;
+    --menu-height-item: 40px;
+    /* Pagination */
+    --pagination-bg-color: #027be3;
+    --pagination-border-color: #027be3;
+    --pagination-bg-color-active: #005ab5;
+    --pagination-color: #fff;
+    --pagination-color-hover: #005ab5;
+    --pagination-n-p-color: #005ab5;
+    /* Button */
+    --btn-color: #4e819e;
+    --btn-bg-color: #fff;
+    --btn-border-color: #4e819e;
+    --btn-disabled-color: rgba(0, 0, 0, 0.25);
+    --btn-disabled-bg--color: #f5f5f5;
+    --btn-disabled-border-color: #d9d9d9;
+    --btn-success-color: #306583;
+    --btn-success-bg-color: #f5f5f5;
+    --btn-success-border-color: #d9d9d9;
+    --btn-success-active-color: #013857;
+    /* Table */
+    --tbl-head-color: #fff;
+    --tbl-head-bg-color: #1e88e5;
+    /* Switch */
+    --switch-success-color: #306583;
+    --switch-success-color-active: #fff;
+    /* layout */
+    --font-size: 13px;
+    --bg-primary: #337ab7;
+    --border-primary: #2e6da4;
+    --bg-success: #5cb85c;
+    --border-success: #4cae4c;
+    --bg-danger: #d9534f;
+    --border-danger: #d43f3a;
+    --bg-info: #46b8da;
+    --border-info: #46b8da;
+    --bg-warning: #f0ad4e;
+    --border-warning: #eea236;
+    --scroll-bar-width: 0px;
+}
+
+#csdl-attp-root {
+    background-image: url("/static/image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100%;
+}

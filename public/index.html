@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="shortcut icon" href="/static/image/dtb.ico" />
+	<meta id="meta-og-omage" property="og:image" content="/static/image/csdl-attp-dn.png">
+	<link rel="stylesheet" class="css-file" href="/static/css/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" class="css-file" href="/static/css/fontawesome/css/font-awesome.css">
+	<link rel="stylesheet" class="css-file" href="/static/css/react-loading-bar/css/react-loading-bar.css">
+	<link rel="stylesheet" class="css-file" href="/static/css/react-image-crop/css/react-image-crop.css">
+	<link rel="stylesheet" class="css-file" href="/static/css/antd/css/antd.css">
+	<link rel="stylesheet" class="css-file" href="/static/css/react-perfect-scrollbar/css/style.css">
+
+	<link rel="stylesheet" class="css-file" href="/static/css/layout/css/loading.css">
+	<link rel="stylesheet" class="css-file" href="/static/css/layout/css/style.css">
+	<link rel="stylesheet" class="css-file" href="/static/css/layout/css/btn.css">
+	<!-- <link rel="stylesheet" class="css-file" href="/static/css/layout/scss/style.scss"> -->
+	<!-- <link rel="stylesheet" class="css-file" href="/static/css/layout/css/root.css"> -->
+	<link rel="stylesheet" class="css-file" href="/static/css/layout/css/style-responsive.css">
+	<link rel="stylesheet" class="css-file" href="/static/css/layout/css/login.css">
+	<link rel="stylesheet" class="css-file" href="/static/css/layout/css/modal-custom.css">
+	<link rel="stylesheet" class="css-file" href="/static/css/layout/css/error.css">
+
+	<link rel="stylesheet" class="css-file" href="/static/css/layout/css/side-bar.css">
+	<link rel="stylesheet" class="css-file" href="/static/css/layout/css/mobile.css">
+	<link rel="stylesheet" class="css-file" href="/static/css/layout/css/size.css">
+
+	<title>CSDL ATTP | Trang chủ</title>
+</head>
+
+
+<body _loading="0" _enviroment="web" _operating-system="" class="csdl-attp">
+	<div id="csdl-attp-root">
+		<div id="loader-container">
+			<span class="_loader">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+			<div style="width: 300px; margin: auto;">
+				<div class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-default">
+					<div>
+						<div class="ant-progress-outer">
+							<div class="ant-progress-inner">
+								<div class="ant-progress-bg" style="width: 0%; height: 8px;"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p style="color: rgb(255, 255, 255);">
+					<span class="pull-left">
+						Đang tải dữ liệu. Vui lòng đợi!!!
+					</span>
+					<span class="pull-right">0%</span>
+				</p>
+			</div>
+		</div>
+	</div>
+	<noscript>Bạn cần bật JavaScript để chạy ứng dụng này.</noscript>
+	<audio id="sound-notification-id" style="display: none;">
+		<source id="sound-notification-id-source" src="/static/media/sound-notifi-default.mp3" type="audio/ogg" />
+	</audio>
+	<form style="display: none;">
+		<input type=text id="qrcode">
+		<input type=button value="Scan QR" id="btn-mb-scan-qrcode" onclick="showQR();">
+		<input type=submit value="reload">
+	</form>
+	<script type="text/javascript" class="js-file" src="/static/js/enviroment/index.js?v=3.1.9"></script>
+	<script type="text/javascript" class="js-file" src="/static/js/onload.js?v=3.1.9"></script>
+	<script type="text/javascript" class="js-file" src="/static/js/qrcode/index.js?v=3.1.9"></script>
+</body>
+
+</html>

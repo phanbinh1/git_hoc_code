@@ -1,0 +1,7 @@
+$from : 30.00;
+$to: 500.00;
+@for $i from $from through $to {
+    .wrapper-list[header-height="#{$i}"] .ant-table-placeholder {
+        top: #{$i}px;
+    }
+}

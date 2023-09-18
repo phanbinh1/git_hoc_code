@@ -1,0 +1,71 @@
+body.csdl-attp .ant-btn:not([disabled=""]) {
+    color: var(--btn-color);
+    background-color: var(--btn-bg-color);
+    border-color: var(--btn-border-color);
+}
+
+body.csdl-attp .ant-btn:not([disabled=""]):hover {
+    color: var(--btn-hover-color);
+    background-color: var(--btn-hover-bg-color);
+    border-color: var(--btn-hover-border-color);
+}
+
+body.csdl-attp .ant-btn[disabled=""] {
+    color: var(--btn-disabled-color);
+    background-color: var(--btn-disabled-bg-color);
+    border-color: var(--btn-disabled-border-color);
+}
+
+body.csdl-attp .ant-btn[disabled=""]:hover {
+    color: var(--btn-disabled-hover-color);
+    background-color: var(--btn-disabled-hover-bg-color);
+    border-color: var(--btn-disabled-hover-border-color);
+}
+
+body.csdl-attp .ant-btn.ant-btn-primary:not([disabled=""]) {
+    color: var(--btn-primary-color);
+    background-color: var(--btn-primary-bg-color);
+    border-color: var(--btn-primary-border-color);
+}
+
+body.csdl-attp .ant-btn.ant-btn-primary:not([disabled=""]):hover {
+    color: var(--btn-primary-hover-color);
+    background-color: var(--btn-primary-hover-bg-color);
+    border-color: var(--btn-primary-hover-border-color);
+}
+
+body.csdl-attp .ant-btn.ant-btn-danger:not([disabled=""]) {
+    color: var(--btn-danger-color);
+    background-color: var(--btn-danger-bg-color);
+    border-color: var(--btn-danger-border-color);
+}
+
+body.csdl-attp .ant-btn.ant-btn-danger:not([disabled=""]):hover {
+    color: var(--btn-danger-hover-color);
+    background-color: var(--btn-danger-hover-bg-color);
+    border-color: var(--btn-danger-hover-border-color);
+}
+
+body.csdl-attp .ant-btn.ant-btn-success:not([disabled=""]) {
+    color: var(--btn-success-color);
+    background-color: var(--btn-success-bg-color);
+    border-color: var(--btn-success-border-color);
+}
+
+body.csdl-attp .ant-btn.ant-btn-success:not([disabled=""]):hover {
+    color: var(--btn-success-hover-color);
+    background-color: var(--btn-success-hover-bg-color);
+    border-color: var(--btn-success-hover-border-color);
+}
+
+body.csdl-attp .ant-btn.ant-btn-dangerous:not([disabled=""]) {
+    color: var(--btn-dangerous-color);
+    background-color: var(--btn-dangerous-bg-color);
+    border-color: var(--btn-dangerous-border-color);
+}
+
+body.csdl-attp .ant-btn.ant-btn-dangerous:not([disabled=""]):hover {
+    color: var(--btn-dangerous-hover-color);
+    background-color: var(--btn-dangerous-hover-bg-color);
+    border-color: var(--btn-dangerous-hover-border-color);
+}
