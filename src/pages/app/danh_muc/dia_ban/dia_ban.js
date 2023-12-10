@@ -23,6 +23,8 @@ const DiaBan = ({ ...props }) => {
     dispatch(actSyncProcess.createSyncProcess(job));
     //them du lieu vao dev_1
     //them du lieu vao dev_1 .
+    //them du lieu vao dev
+    //them du lieu vao dev
   };
   const deleteRequest = (object = {}) => {
     dispatch(actDiaBan.deleteRequest(object));
