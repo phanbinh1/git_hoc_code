@@ -25,6 +25,8 @@ const DiaBan = ({ ...props }) => {
     //them du lieu vao dev_1 .
     //them du lieu vao dev
     //them du lieu vao dev
+    //them du lieu vao dev_1
+    //them du lieu vao dev_1
   };
   const deleteRequest = (object = {}) => {
     dispatch(actDiaBan.deleteRequest(object));
